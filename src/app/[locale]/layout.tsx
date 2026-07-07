@@ -33,7 +33,7 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     verification: {
-      google: "4laiyHpGKYTpXTcDPCo4T",
+      google: "4laiyHpGKYTpXTcDPCo4T-FKVFvY5nSh5j8CoLHfqy4",
     },
     alternates: {
       canonical: `/${locale}`,
