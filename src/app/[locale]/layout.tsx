@@ -32,6 +32,9 @@ export async function generateMetadata({
     ),
     title: t("title"),
     description: t("description"),
+    verification: {
+      google: "4laiyHpGKYTpXTcDPCo4T",
+    },
     alternates: {
       canonical: `/${locale}`,
       languages: {
@@ -52,6 +55,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <html lang={locale} className={`${geistSans.variable} h-full antialiased`}>
+
       <body className="flex min-h-full flex-col font-sans">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
